@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:fadingEdge="vertical"
+    android:layout_margin="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:padding="5dp"
+                android:maxLines="4"
+                android:text="Title"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvCreationDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:maxLines="2"
+                android:text="Date"
+                android:padding="5dp"
+                android:textColor="#FDFDFD"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvLink"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:maxLines="2"
+                android:text="Link"
+                android:textColor="#304FFE"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvViews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:maxLines="3"
+                android:text="Views"
+                android:padding="5dp"
+                android:textColor="#FDFDFD"
+                android:ellipsize="end"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:maxLines="3"
+                android:text="Score"
+                android:padding="5dp"
+                android:textColor="#FDFDFD"
+                android:ellipsize="end"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvAnswered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:maxLines="3"
+                android:padding="5dp"
+                android:text="Is Answered"
+                android:textColor="#FDFDFD"
+                android:ellipsize="end"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:maxLines="3"
+                android:text="Tags"
+                android:padding="5dp"
+                android:textColor="#FDFDFD"
+                android:ellipsize="end"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+ </androidx.cardview.widget.CardView>
